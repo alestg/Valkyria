@@ -1,0 +1,66 @@
+#galeria, #galeria * {box-sizing:border-box,-moz-box-sizing:border-box}
+#galeria  {
+border: 0px solid #e7e7e7;  /* Borde de la galería */
+/* padding: 10px;*/
+/*padding-bottom: 0;*/
+background: #e7e7e7;  /* Fondo de la galería */
+width: 100%;  /* Ancho de la galería */
+
+}
+#galeria_miniaturas {
+display: table;
+margin: auto;
+}
+#imgGaleria {
+border: 1px solid #f4f4f4;  /* Borde de la imagen */
+/*padding: 3px; */
+width: 80%; /* Ancho de la imagen */
+ /* Alto de la imagen */
+ 
+
+/*position: absolute; 
+	top: 65px;
+	left: 50px;
+	right: 0;
+	bottom: 0;*/
+	/*margin: auto;*/
+}
+.miniatura {
+width:  40px;  /* Ancho de las miniaturas */
+height:  50px;  /* Alto de las miniaturas */
+float: left;
+cursor: pointer;
+/* padding: 5px; */
+margin: auto;
+}
+.miniatura:hover {
+opacity:.8;   /* Opacidad */
+-moz-opacity:.8;
+-khtml-opacity:.8;
+filter:alpha(opacity=80);
+}
+.miniatura:active {
+opacity:1;
+-moz-opacity:1;
+-khtml-opacity:1;
+filter:alpha(opacity=80);
+}
+
+
+}
+.centrar
+{
+	width: 90%;
+	height: 90%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	
+}
+.valknu
+{
+	width: 40%;
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    	<!-- Hoja de estilo --> 
+			<meta charset="utf-8" />
+	        <meta name="format-detection" content="telephone=no" />
+	        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+	        <!-- Hojas de estilo -->
+	        <link rel="stylesheet" href="css/lungo.css">
+			<link rel="stylesheet" href="css/lungo.icon.css">
+			<link rel="stylesheet" href="css/lungo.theme.css">
+			<link rel="stylesheet" href="css/Centrotime.css">
+			<link rel="stylesheet" href="css/galeria.css">
+
+			<!-- Script -->
+			<script src="js/quo.js"></script>
+			<script src="js/lungo.js"></script>
+	        
+	        <title>Hello World</title>
+	        
+   	</head>
+	<body class="app">
+		<section id="main" dat-transition="slide"> 
+
+			<article id="art1">
+
+				<center><img src="./img/valknut.jpg" id="logus" class="one"></center>
+
+
+			</article>			
+			</section>
+			<section id="seccion2" data-transition="slide" class="scroll">
+				<header data-title="Valkyrie" data-back="home"></header>
+				<nav data-control="groupbar">
+			    	<a href="#" data-view-article="inicio" class="active">Inicio</a>
+					<a href="#" data-view-article="galleria" >Galeria</a>
+					<a href="#" data-view-article="contacto">Contacto</a>
+					</nav>
+									
+							 <article id="inicio" class="list" class="asd" >
+				    	<ul>				    		
+				    		<li  id="fila1">
+				    			<center><img src="./img/off.png" id="off"></center>
+				    			<div>
+				    			<center>
+				    				<strong ><font color="gray"> 30% off Rockstyle </font></strong>
+				    			</center>
+				    			</div>
+				    		</li>	
+				    		<li  id="fila1">
+				    			<center><img src="./img/channel.png" id="off" ></center>
+				    			<div>
+				    			<center>
+				    				<strong > <font color="gray">30% off Rockstyle</font> </strong>
+				    			</center>
+				    			</div>
+				    		</li>	
+				    		<li  id="fila1">
+				    			<center><img src="./img/nana.png" id="off" ></center>
+				    			<div>
+				    			<center>
+				    				<strong ><font color="gray">Hottopic</font> </strong>
+				    			</center>
+				    			</div>
+				    		</li>	
+				    		<li  id="fila1">
+				    			<center><img src="./img/valk.png" id="off" class="valknu"></center>
+				    			<div>
+				    		
+				    			</div>
+				    		</li>	
+
+
+				    		    		
+				    	</ul>
+							</article>
+
+							<article id="galleria" content="width=device-width" >
+							<ul>
+								<li>
+								<center>
+
+									<div id="galeria" class="aline" >
+									<div id="galeria_imagen">
+									<img id="imgGaleria" src="./img/Zero.png" /></div>
+									<div id="galeria_miniaturas">
+									<img class="miniatura"  onclick="javascript:document.getElementById('imgGaleria').src=this.src;" src="./img/Zero.png" /> 
+									<img class="miniatura"  onclick="javascript:document.getElementById('imgGaleria').src=this.src;" src="./img/zero1.png" />
+									<img class="miniatura"   onclick="javascript:document.getElementById('imgGaleria').src=this.src;" src="./img/zero3.png" />
+									<img class="miniatura" onclick="javascript:document.getElementById('imgGaleria').src=this.src;" src="./img/zero4.png" />
+									<img class="miniatura" onclick="javascript:document.getElementById('imgGaleria').src=this.src;" src="./img/zero5.png" />
+									<img class="miniatura" onclick="javascript:document.getElementById('imgGaleria').src=this.src;" src="./img/zero6.png" />
+									<img class="miniatura" onclick="javascript:document.getElementById('imgGaleria').src=this.src;" src="./img/zero7.png" />
+								
+									</div>
+									</div>
+
+								</center>
+								</li>
+							</ul>
+							</article>
+
+
+
+						<article id="contacto">
+							<ul>
+						<div class="form">
+			   				<fieldset>
+			   				<li>
+				   				<label class="anchor">Nombre</label>
+				   				<input type="text" placeholder="Dame tu nombre">
+				   			</li>
+
+				   				<label class="anchor">Correo Electronico</label>
+				   				<input type="text" placeholder="correo electronico">
+				   			
+				   				<label class="anchor">Fecha de nacimiento</label>
+				   				<input type="date" class="align_right" placeholder="Dame tu Fecha" value="01/01/1980" />
+				   			
+				   				
+				   				<label>Sexo</label>
+				   				<label class="select"><select>
+				   						<option value="1">Masculino</option>
+				   						<option value="2">Femenino</option>				   					
+				   					</select>
+
+				   				</label>
+				   				<label>Pais</label>
+				   				<label class="select">
+				   					<select>
+				   						<option value="1">Mexico</option>
+				   						<option value="2">Estados Unidos</option>
+				   						<option value="3">Argentina</option>
+				   						<option value="4">Chile</option>
+				   						<option value="5">Brazil</option>
+				   						<option value="6">Argentina</option>
+				   						<option value="7">Argentina</option>
+				   						<option value="8">Argentina</option>
+				   						<option value="9">Argentina</option>
+				   						<option value="10">Argentina</option>
+				   						<option value="11">Argentina</option>
+				   					</select>
+				   				</label>
+				   				<label class="anchor">Terminos y Condiciones</label>
+				   				<input type="checkbox" class="inline right">
+				   			</fieldset>
+
+			   			</div>
+			   		        </ul>
+
+						</article>
+						<footer>
+							<nav>
+								<a href="#" data-view-section="tabla" data-icon="truck"></a>
+							</nav>
+						</footer>
+			</section>
+			<section id="tabla" data-transition="slide">
+				<article id="gaspar" class="active">
+					<header  data-back="home" data-title="Valkprueba"></header>
+				<ul class="horizontal scroll" sytle="height: 197px;">
+
+					<img class="centrar" src="./img/Zero.png" />
+					<img class="centrar" src="./img/Zero1.png" />
+					<img class="centrar" src="./img/Zero3.png" />
+					<img class="centrar" src="./img/Zero4.png" />
+					<img class="centrar" src="./img/Zero5.png" />
+					<img class="centrar" src="./img/Zero6.png" />
+					<img class="centrar" src="./img/Zero7.png" />
+					<img class="centrar" src="./img/Zero8.png" />
+					
+					
+				</ul>
+
+				</article>
+			</section>
+				
+
+			<script type="text/javascript">
+				Lungo.init({
+					 name: 'hello-world'
+				});
+				Lungo.dom('#logus').on('click',function(event){
+					//alert("Picale en otro lado");
+					Lungo.Router.section("seccion2")
+
+				});
+
+			</script>
+	</body>
+</html>
